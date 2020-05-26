@@ -5,7 +5,8 @@ import NavBar from '../NavBar/NavBar'
 
 const MainView = props => {
     return (
-        <AppContainer>
+        <AppContainer col={6} row={8}>
+            {/* Add components to this component here*/}
             <NavBar/>
         </AppContainer>
     )
