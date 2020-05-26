@@ -1,9 +1,13 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
+import { AppContainer } from '../../styles/containers/containers'
+import NavBar from '../NavBar/NavBar'
 
 const MainView = props => {
     return (
-        <h1> Hello World </h1>
+        <AppContainer>
+            <NavBar/>
+        </AppContainer>
     )
 }
 
