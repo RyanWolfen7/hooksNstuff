@@ -7,7 +7,9 @@ const MainView = props => {
     return (
         <AppContainer col={6} row={8}>
             {/* Add components to this component here*/}
-            <NavBar/>
+            <NavBar
+                gridArea={{ colSpan: 6 }}
+            />
         </AppContainer>
     )
 }
