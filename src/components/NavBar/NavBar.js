@@ -3,7 +3,8 @@ import { NavBarContainer } from '../../styles/navbar/navbar'
 
 
 const NavBar = props => {
-    const { gridArea } = props
+    const styles = props.styles
+    const { gridArea } = styles || props
 
     return (
         <NavBarContainer
